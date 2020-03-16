@@ -1,0 +1,44 @@
+.ray {
+  height: 70px;
+}
+
+.ray:nth-child(1) {
+  background: #5473fa;
+}
+
+.ray:nth-child(2) {
+  background: #9854fa;
+}
+
+.ray:nth-child(3) {
+  background: #fa54f8;
+}
+
+.ray:nth-child(4) {
+  background: #fa5495;
+}
+
+.ray:nth-child(5) {
+  background: #fa7754;
+}
+
+.ray:nth-child(6) {
+  background: #fadb54;
+}
+
+.ray:nth-child(7) {
+  background: #b6fa54;
+}
+
+.ray:nth-child(8) {
+  background: #54fa56;
+}
+
+.ray:nth-child(9) {
+  background: #54fab9;
+}
+
+.ray:nth-child(10) {
+  background: #54d7fa;
+}
+/*# sourceMappingURL=style.css.map */

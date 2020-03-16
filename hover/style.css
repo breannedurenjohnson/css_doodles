@@ -1,0 +1,105 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #ff9afb;
+}
+p{
+    padding-top: 20px;
+    margin: 0px;
+    font-size: 24pt;
+    text-align: center;
+    color: blueviolet;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: bold;
+    transform: rotate(45deg);
+    transform: skewY(0deg);
+}
+.column1{
+    vertical-align: top;
+    display: inline-block;
+    transform: rotate(45deg);
+    transform: skewY(30deg);
+    margin: -2px;
+    width: 85px;
+}
+.column2{
+    display: inline-block;
+    transform: rotate(-45deg);
+    transform: skewY(-30deg);
+    margin: -2px;
+    width: 85px;
+}
+.a{
+    background-color: blueviolet;
+    height: 85px;
+}
+.b{
+    background-color: blue;
+    height: 85px;
+}
+.c{
+    background-color: red;
+    height: 85px;
+}
+.d{
+    background-color: #892be279;
+    height: 85px;
+}
+.e{
+    background-color: #0000ff73;
+    height: 85px;
+}
+.f{
+    background-color: #ff000073;
+    height: 85px;
+}
+.a:hover{
+    background-color: blueviolet;
+    transition: all 0.2s ease;
+    transform: rotate(-180deg);
+    transform: skewY(-45deg);
+}
+.d:hover{
+    background-color: #892be279;
+    transition: all 0.5s ease;
+    transform: rotate(180deg);
+}
+.b:hover{
+    background-color: blue;
+    transition: all 0.2s ease;
+    transform: rotate(-180deg);
+    transform: skewY(-45deg);
+}
+.e:hover{
+    background-color: #0000ff73;
+    transition: all 0.5s ease;
+    transform: rotate(180deg);
+}
+.c:hover{
+    background-color: red;
+    transition: all 0.2s ease;
+    transform: rotate(-180deg);
+    transform: skewY(-45deg);
+}
+.f:hover{
+    background-color: #ff000073;
+    transition: all 0.5s ease;
+    transform: rotate(180deg);
+}
+#hi:hover{
+    background-color: black;
+}
+@media only screen and (max-width: 1023px){
+    .container{
+        width: 550px;
+        margin: auto;
+        padding: 40px;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .container{
+        width: 1024px;
+        margin: auto;
+        padding: 40px;
+    }
+}
